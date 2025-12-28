@@ -60,8 +60,7 @@ Continued use of the app implies acceptance of updated terms.
 
 ## 7. Governing Law
 
-These Terms shall be governed by and construed in accordance with the laws of the Republic of Croatia, 
-without regard to conflict of law principles.
+These Terms shall be governed by and construed in accordance with the laws of the Republic of Croatia, without regard to conflict of law principles.
 
 ## 8. Contact
 
