@@ -32,62 +32,71 @@
 
 <h2>1. Introduction</h2>
 <p>
-Focus Blocker is designed with privacy in mind. The app operates locally on your device
-and does not collect, sell, or share personal data.
+Focus Blocker is designed with privacy as a core principle.
+The application operates entirely on your device and does not collect,
+sell, or share personal data.
 </p>
 
 <h2>2. Data Collection</h2>
 <p>
-Focus Blocker does not require user accounts and does not collect personal information.
+Focus Blocker does not require user accounts and does not automatically collect
+any personal information.
 </p>
 <ul>
   <li>No analytics</li>
   <li>No tracking</li>
   <li>No advertising identifiers</li>
   <li>No third-party advertising SDKs</li>
+  <li>No remote servers</li>
 </ul>
 <p>
-All app settings, schedules, and focus session data are stored locally on your device.
-No user data is transmitted to external servers.
+All app settings, schedules, blocked app lists, and focus session data
+are stored locally on your device only.
 </p>
 
 <h2>3. Usage Access Permission</h2>
 <p>
 Focus Blocker uses the Android Usage Access permission (Usage Stats)
-to detect which application is currently in the foreground.
-</p>
-<p>
-This is required solely to determine whether a selected app should be blocked
+solely to determine which application is currently active (in the foreground)
 during an active focus session.
 </p>
 <p>
-The app:
+This permission is required exclusively to enforce app blocking functionality.
+The app checks the currently active app in real time and compares it to
+the user-defined blocked list.
+</p>
+<p>
+Focus Blocker:
 </p>
 <ul>
-  <li>does not store detailed app usage history</li>
-  <li>does not analyze user behavior</li>
+  <li>does not store detailed usage history</li>
+  <li>does not analyze behavioral patterns</li>
+  <li>does not build user profiles</li>
   <li>does not transmit usage data</li>
-  <li>processes usage information only in real time</li>
+  <li>does not access usage data outside of active blocking logic</li>
 </ul>
 <p>
-All processing happens locally on your device.
+All processing of usage information happens locally on the device
+and only while focus blocking is active.
 </p>
 
 <h2>4. Display Over Other Apps (Overlay Permission)</h2>
 <p>
 Focus Blocker uses the “Display over other apps” (overlay) permission
-to show a blocking screen above apps that are restricted during a focus session.
+to show a blocking screen above applications that are restricted
+during an active focus session.
 </p>
 <p>
-The overlay is used only to enforce blocking functionality.
-It does not capture screen content, record interactions,
-or monitor activity outside of blocking logic.
+The overlay is used strictly to display the blocking interface.
+The app does not capture screen content, record interactions,
+log screen data, or monitor activity beyond blocking enforcement.
 </p>
 
 <h2>5. Data Sharing</h2>
 <p>
-Focus Blocker does not share any data with third parties.
-No personal data is transmitted because the app does not use remote servers.
+Focus Blocker does not share data with third parties.
+No personal data is transmitted because the application does not use
+external servers or cloud storage.
 </p>
 
 <h2>6. Support Communication</h2>
@@ -96,7 +105,7 @@ If you voluntarily contact support (for example via email),
 you may choose to provide diagnostic information to help resolve your issue.
 </p>
 <p>
-This may include:
+Such information may include:
 </p>
 <ul>
   <li>App version</li>
@@ -104,18 +113,20 @@ This may include:
   <li>Device model</li>
   <li>Battery optimization status</li>
   <li>Premium or Free status</li>
-  <li>Selected blocking mode (e.g. hard or soft blocking)</li>
+  <li>Selected blocking mode (e.g., hard or soft blocking)</li>
 </ul>
 <p>
-This information is used only to provide technical support
-and is not used for analytics or marketing purposes.
+This information is not collected automatically.
+It is only received if you voluntarily provide it when requesting support.
+The information is used exclusively for troubleshooting purposes
+and is not used for analytics, marketing, or profiling.
 </p>
 
 <h2>7. Children’s Privacy</h2>
 <p>
 Focus Blocker does not knowingly collect personal information from children.
-Since no personal data is collected automatically,
-there is no profiling or behavioral tracking.
+Because the app does not collect personal data,
+there is no behavioral tracking or profiling.
 </p>
 
 <h2>8. Changes to This Policy</h2>
